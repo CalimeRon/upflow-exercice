@@ -20,7 +20,7 @@
   </a>
 </p>
 
-Full-Stack data-grid example with editable rows and navigation. Tests for front-end and back-end. Written in Typescript.
+Full-Stack data-grid implementation example with editable rows and navigation. Tests for front-end and back-end. Written in Typescript.
 
 ## User Features
 This project contains a RESTful API powered by Express(NodeJS) on the back-end. The front-end is powered by ReactJS.
