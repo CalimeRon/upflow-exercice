@@ -1,0 +1,8 @@
+@import '../../style/style.scss';
+
+.Btn {
+  @include backAndFont;
+  background-color: $accent;
+  height: 2em;
+  border-radius: 5px;
+}

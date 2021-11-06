@@ -1,0 +1,22 @@
+@import '../../style/style.scss';
+
+.container {
+  display: flex;
+  :focus {
+    background-color: $primaryActive;
+  }
+}
+
+.navigationBtn {
+  @include backAndFont;
+}
+
+.input {
+  @include backAndFont;
+  width: 3em;
+  text-align: center;
+
+  :focus {
+    background-color: $primaryActive;
+  }
+}

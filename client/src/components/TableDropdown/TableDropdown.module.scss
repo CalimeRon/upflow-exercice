@@ -1,0 +1,14 @@
+@import '../../style/style.scss';
+
+.container {
+  display: flex;
+}
+
+.title {
+  margin-right: 1em;
+}
+
+.dropdown {
+  @include backAndFont;
+  border: 1px solid $light;
+}

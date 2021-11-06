@@ -1,0 +1,31 @@
+@mixin wallet {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: $rowHeight;
+  margin: 0 0.5em;
+}
+
+@mixin walletInput {
+  background-color: $primary;
+  color: $light;
+  height: $inputHeight;
+  border-radius: 5px;
+  padding-left: $paddingLeft;
+}
+
+@mixin border {
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: $border;
+}
+
+@mixin rowBtn {
+  position: relative;
+  top: -0.5em;
+}
+
+@mixin backAndFont {
+  background-color: $primary;
+  color: $light;
+}

@@ -1,0 +1,27 @@
+@import '../../style/style.scss';
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: $rowHeight;
+
+  input {
+    min-width: 5em;
+    @include backAndFont;
+    height: 2em;
+    border-radius: 5px;
+    padding-left: $paddingLeft;
+  }
+}
+
+.input {
+  text-align: center;
+}
+
+.required {
+  display: flex;
+  margin-left: 0.8em;
+  color: $accent;
+  font-size: 0.7em;
+}

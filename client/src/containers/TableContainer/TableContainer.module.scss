@@ -1,0 +1,67 @@
+@import '../../style/style.scss';
+.bottom {
+  display: flex;
+  flex-direction: row;
+  position : relative;
+  z-index: 1;
+  justify-content: space-around;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+.caption {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+  color: $light;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid $border;
+  height: 95%;
+}
+
+.headers {
+  margin: 1em 1em 1em 1em;
+  min-width: 8em;
+  padding: 0.5em 0 0.5em 0;
+  margin-bottom: 10em;
+  border: 2px solid $border;
+}
+
+.headersContainer {
+  font-size: 1.5em;
+  color: $light;
+
+  :hover{
+    cursor: pointer;
+  }
+}
+
+.idColumn {
+  width: 3.2em;
+  color: $light;
+  border: 2px solid $border;
+}
+
+
+.newRow {
+  height: $rowHeight;
+}
+
+.tableElement {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+}
+
+.tableWrapper {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0 0.5em;
+}

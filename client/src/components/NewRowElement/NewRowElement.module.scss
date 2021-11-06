@@ -1,0 +1,33 @@
+@import '../../style/style.scss';
+
+.cell {
+  @include border;
+}
+
+.checkbox {
+  position: relative;
+  top: $checkboxOffset;
+}
+
+.row {
+  text-align: center;
+  height: $newRowHeight;
+  :focus {
+    background-color: $primaryActive;
+  }
+}
+
+.rowBtn {
+  @include backAndFont;
+  @include rowBtn;
+  height: 2em;
+  border-radius: 5px;
+}
+
+.wallet {
+  @include wallet;
+}
+
+.walletInput {
+  @include walletInput;
+}
