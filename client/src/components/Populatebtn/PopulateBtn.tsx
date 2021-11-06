@@ -23,14 +23,13 @@ function PopulateBtn({ dbCount, data, setData, setDbCount }: Props): JSX.Element
   };
 
   useEffect(() => {
-    // dbCount >= tableLimit + 1 ? setDisablePopulate(true) : setDisablePopulate(false);
   }, [dbCount]);
 
   return (
     <button className={styles.Btn} onClick={() => populateMock()}>
       ADMIN: Add 1000 rows
     </button>
-  );
+  ); 
 }
 
 export default PopulateBtn;

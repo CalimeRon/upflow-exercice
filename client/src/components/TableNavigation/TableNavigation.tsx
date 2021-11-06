@@ -16,7 +16,6 @@ function TableNavigation({ page, maxPage, setPage, checkOffset }: Props): JSX.El
   }, [page])
 
   const goToPage = (page: number): void => {
-    console.log('in gotopage, page= ', page, 'tempPage ', tempPage);
     setPage(page);
     setTempPage(page);
     checkOffset(page);

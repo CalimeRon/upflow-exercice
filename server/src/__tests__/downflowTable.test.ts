@@ -108,7 +108,7 @@ describe('updateRow endpoint', () => {
 
 describe('deleteRow endpoint', () => {
   describe('DELETE /row request on an existing entry in the database', () => {
-    // const dbCount = await db.DownflowTable
+
     it('should return 201', async () => {
       const response = await supertest(app)
         .delete('/row')
