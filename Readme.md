@@ -23,7 +23,7 @@
 Full-Stack data-grid implementation example with editable rows and navigation. Tests for front-end and back-end. Written in Typescript.
 
 ## User Features
-This project contains a RESTful API powered by Express(NodeJS) on the back-end. The front-end is powered by ReactJS.
+This project contains a RESTful API powered by Express(NodeJS) on the back-end. The front-end is powered by ReactJS. The database is PostgreSQL, ran through Sequelize.
 The table example provided contains the built-in features:
 * Edit cells
 * Insert new rows
@@ -35,6 +35,7 @@ The table example provided contains the built-in features:
 * (for testing purposes) Delete all rows in the database
 
 ## First set-up
+
 ### Set environmental variables
 There are three environmental variables to set according to the `.example`s provided:
 * `.env` in the `/server` directory
